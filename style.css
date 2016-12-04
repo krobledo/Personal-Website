@@ -2,13 +2,13 @@
 <html>
 <head>
 	<title>Kenneth's Webpage</title>
-<body>
 <style>
 body{
-	background-color: lightgreen;
-
-
+	background-color: lightblue;
   }
+</style>
+</head>
+<body>
 
 	h1 {
     font-family: "Times New Roman", Times, serif;
@@ -32,7 +32,5 @@ body{
 
 
 
-</head>
 </body>
-</style>
 </html>
