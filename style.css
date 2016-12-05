@@ -11,7 +11,7 @@ body{
 
 	img {
 		width: 100%;
-
+		margin: auto;
 	}
 	h2 {
     font-family: "Times New Roman", Times, serif;
