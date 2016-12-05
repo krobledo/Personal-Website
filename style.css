@@ -6,7 +6,7 @@
 <style>
 <body>
 body{
-	background-image: url("halo.jpg");
+	background-image: image("halo.jpg");
 }
 
 	img {
