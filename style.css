@@ -16,21 +16,21 @@ body{
 	}
 	h2 {
     font-family: "Ariel", Times, serif;
-    color: blue;
+    color: white;
     margin-left: 25px;
     text-align: center;
   }
 
   p {
     font-family: "Ariel", Times, serif;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
 }
 
 	h3 {
     font-family: "Ariel", Times, serif;
-		color: black;
+		color: white;
 		font-size: 15px;
 		text-align: left;
 	}
