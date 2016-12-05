@@ -27,7 +27,8 @@
     font-family: "Ariel", Times, serif;
     color: white;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
+		padding-right: 20cm;
 }
 
 	h3 {
