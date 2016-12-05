@@ -1,14 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Kenneth's Webpage</title>
-</head>
 <style>
-body{
-	background-image: url("starwars.jpg");
-}
+</style>
+</head>
 <body>
 
+	body{
+		
+	}
 
 	img {
 		display: block;
@@ -36,9 +37,5 @@ body{
 		text-align: left;
 	}
 
-
-
-
-</style>
 </body>
 </html>
