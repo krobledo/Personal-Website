@@ -4,10 +4,11 @@
 	<title>Kenneth's Webpage</title>
 </head>
 <style>
-<body>
 body{
 	background-image: url("starwars.jpg");
 }
+<body>
+
 
 	img {
 		display: block;
