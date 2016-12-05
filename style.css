@@ -17,7 +17,7 @@
 		margin: auto;
 	}
 	h2 {
-    font-family: "Ariel", Times, serif;
+    font-family: "calibri", Garamond, 'Comic Sans MS';
     color: blue;
     margin-left: 25px;
     text-align: center;
@@ -41,7 +41,7 @@
 		font-family: "Ariel", Times, serif;
 		color: white;
 		font-size: 15px;
-		text-align: left;	
+		text-align: left;
 	}
 
 </body>
