@@ -12,8 +12,9 @@
 	}
 
 	@font-face {
-		font-family: customM;
-		src: url(sansation_light.woff);
+		font-family: CustomMine;
+		src:	local("8 Bit"),
+					url(PressStart2P.ttf);
 	}
 
 	img {
@@ -22,18 +23,17 @@
 		margin: auto;
 	}
 	h2 {
-    font-family: "calibri", Garamond, 'Comic Sans MS';
+    font-family: "8Bit", CustomMine;
     color: black;
     margin-left: 25px;
     text-align: center;
   }
 
   p {
-    font-family: customM;
+    font-family: "8Bit", CustomMine;
     color: white;
     font-size: 20px;
     text-align: center;
-		padding-right: 50%;
 	}
 
 
