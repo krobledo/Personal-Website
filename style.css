@@ -33,6 +33,9 @@
     font-family: "8Bit", CustomMine;
     color: #E092A3;
     font-size: 30px;
+		position: absolute;
+		top: 50%;
+		bottom: 50%;
     text-align: center;
 	}
 
