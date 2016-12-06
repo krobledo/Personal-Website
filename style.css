@@ -24,7 +24,8 @@
   }
 
   p {
-    font-family: "Ariel", Times, serif;
+    font-family: "8 Bit";
+		src: url(PressStart2P.tff);
     color: white;
     font-size: 20px;
     text-align: center;
