@@ -11,6 +11,11 @@
 
 	}
 
+	@font-face {
+		font-family: myFirstFont;
+		src: url(PressStrt2P.tff);
+	}
+
 	img {
 		display: block;
 		width: 100%;
@@ -24,13 +29,14 @@
   }
 
   p {
-    font-family: "8 Bit";
-		src: url(PressStart2P.tff);
+    font-family: myFirstFont;
     color: white;
     font-size: 20px;
     text-align: center;
 		padding-right: 50%;
-}
+	}
+
+
 
 	h3 {
     font-family: "Ariel", Times, serif;
