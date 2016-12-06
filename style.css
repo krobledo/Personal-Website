@@ -26,6 +26,9 @@
     font-family: "8Bit", CustomMine;
     color: black;
     margin-left: 25px;
+		position: relative;
+		top: 50%;
+		bottom: 50%;
     text-align: center;
   }
 
