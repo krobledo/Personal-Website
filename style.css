@@ -12,9 +12,8 @@
 	}
 
 	@font-face {
-		font-family: custom;
-		src:	local("8 Bit"),
-					url(PressStart2P.ttf);
+		font-family: customM;
+		src: url(sansation_light.woff);
 	}
 
 	img {
@@ -30,7 +29,7 @@
   }
 
   p {
-    font-family: custom;
+    font-family: customM;
     color: white;
     font-size: 20px;
     text-align: center;
