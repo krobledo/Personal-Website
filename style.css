@@ -11,6 +11,11 @@
 
 	}
 
+	html{
+		height: 100%;
+		width: 100%;
+	}
+	
 	@font-face {
 		font-family: CustomMine;
 		src:	local("8 Bit"),
