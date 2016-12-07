@@ -25,6 +25,7 @@
 	img {
 		position: absolute;
 		bottom: 0;
+		margin: auto;
 	}
 	h2 {
     font-family: "8Bit", CustomMine;
