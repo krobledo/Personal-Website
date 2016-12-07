@@ -22,10 +22,10 @@
 					url(PressStart2P.ttf);
 	}
 
-	img.fixed {
-		width: 100%;
-		position: fixed;
+	img {
+		position: absolute;
 		bottom: 0;
+		right: 0;
 	}
 	h2 {
     font-family: "8Bit", CustomMine;
