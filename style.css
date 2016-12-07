@@ -40,8 +40,14 @@
     text-align: center;
 	}
 
+	a{
+		-webkit-transition: width 2s;
+		transition: width 2s;
+	}
 
-
+	a:hover{
+		width: 300px;
+	}
 	h3 {
     font-family: "Ariel", Times, serif;
 		color: white;
