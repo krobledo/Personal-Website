@@ -47,9 +47,9 @@
 		font-family: "Comic Sans MS", cursive, sans-serif;;
 		color: blue;
 		font-size: 20px;
-		text-align: center;
-		position: fixed;
+		position: absolute;
 		bottom: 1;
+		right:0;
 	}
 
 </body>
