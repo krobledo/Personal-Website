@@ -15,7 +15,7 @@
 		height: 100%;
 		width: 100%;
 	}
-	
+
 	@font-face {
 		font-family: CustomMine;
 		src:	local("8 Bit"),
@@ -31,7 +31,6 @@
     font-family: "8Bit", CustomMine;
     color: black;
     margin-left: 20px;
-		position: relative;
     text-align: center;
   }
 
@@ -39,7 +38,6 @@
     font-family: "8Bit", CustomMine;
     color: #E092A3;
     font-size: 25px;
-		position: absolute;
     text-align: center;
 	}
 
