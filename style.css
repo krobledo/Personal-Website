@@ -25,7 +25,6 @@
 	img {
 		position: absolute;
 		bottom: 0;
-		margin: auto;
 	}
 	h2 {
     font-family: "8Bit", CustomMine;
@@ -50,12 +49,12 @@
 		text-align: left;
 	}
 
-	h4{
+	footer{
 		font-family: "Ariel", Times, serif;
-		color: black;
+		color: blue;
 		font-size: 20px;
 		text-align: center;
-		position: absolute;
+		position: fixed;
 		bottom: 1;
 	}
 
