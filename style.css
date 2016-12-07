@@ -27,7 +27,6 @@
     color: black;
     margin-left: 20px;
 		position: relative;
-		width: 50%;
     text-align: center;
   }
 
@@ -36,7 +35,6 @@
     color: #E092A3;
     font-size: 25px;
 		position: absolute;
-		width: 50%;
     text-align: center;
 	}
 
