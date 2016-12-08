@@ -43,13 +43,15 @@
 		font-size: 15px;
 		text-align: left;
 	}
-
+<div>
 	p.yes {
 		font-family: "Comic Sans MS", cursive, sans-serif;;
 		color: blue;
 		font-size: 20px;
 
 	}
+</div>
+
 
 </body>
 </html>
