@@ -17,11 +17,7 @@
 					url(PressStart2P.ttf);
 	}
 
-	img {
-		display: block;
-		margin: auto;
-		bottom:0;
-	}
+	
 	h2 {
     font-family: "8Bit", CustomMine;
     color: black;
