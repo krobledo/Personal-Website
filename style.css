@@ -69,7 +69,7 @@ li a:hover {
 		text-align: left;
 	}
 
-	h4 {
+	p.yes {
 		font-family: "8Bit", CustomMine;
 		line-height: 450%;
 		color: blue;
