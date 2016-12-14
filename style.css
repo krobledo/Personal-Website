@@ -56,16 +56,11 @@ li a {
     text-decoration: none;
 }
 
-
-li a.active {
-	background-color: #4CAF50;
-	color: white;
+li a:hover {
+    background-color: #111;
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
+
 
 	h3 {
     font-family: "Ariel", Times, serif;
