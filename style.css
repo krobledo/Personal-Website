@@ -20,7 +20,7 @@
 	h2 {
     font-family: "8Bit", CustomMine;
     color: #ff4d4d;
-    margin-left: 20px;
+		line-height: 450%;
     text-align: center;
   }
 
@@ -71,6 +71,7 @@ li a:hover {
 
 	h4 {
 		font-family: "8Bit", CustomMine;
+		line-height: 450%;
 		color: blue;
 		font-size: 15px;
 
