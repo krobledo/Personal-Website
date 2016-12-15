@@ -59,7 +59,9 @@ li a:hover {
     background-color: #111;
 }
 
-
+	h1{
+		text-align: center;
+	}
 
 	h3 {
     font-family: "Ariel", Times, serif;
