@@ -70,6 +70,8 @@ li a:hover {
 
 	p.lol {
 		font-family: sans-serif;
+		font-size: 20px;
+		line-height: 100%;
 	}
 
 	p.yes {
