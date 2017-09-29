@@ -1,2 +1,6 @@
 # krobledo.github.io
-for da boys interested, do yaself a favor and copy this bc it is fuegooooo; copyrughts to me of course. 
+Hi, this is a simple implementation of a personal website.
+
+Feel free to use the code for my Mini-Game, try using different questions if interested.
+
+Copyright go to me, of course.

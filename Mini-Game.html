@@ -18,7 +18,7 @@ background-position: center">
 <ul>
 	<li><a href="withoutalert.html">Home</a></li>
 	<li><a  href="aboutme.html">About Me</a></li>
-	<li><a  href="random.html">Game</a></li>
+	<li><a  href="Mini-Game.html">Click Me For A Game!</a></li>
   <!--li><a  href="sportsandAcademics.html">Random</a></li-->
   <li style = "float: right"><a href="contactme.html">Contact Me</a></li>
 </ul>
@@ -41,18 +41,17 @@ background-position: center">
 	 </p>
 
 	 <script language="javascript" type="text/javascript">
-			 // Array of trivia data
+			 // held in array
 			 var TriviaData = new Array(10)
 			 createTwoDimensionalArray(3);
 
-			 // Variables to track state of the game
-			 // i.e. number questions asked, current correct total and current question
+			 //must instantiate
 			 var questionsAsked = 0;
 			 var totalCorrect = 0;
 			 var currentQuestion = 0;
 			 var selectionValid = false;
 
-			 // Questions
+			 // all da questions
 			 TriviaData[0][0] = "Donkey Kong, Pac-Man and Tempest were all released in the same year.";
 			 TriviaData[1][0] = "Capcom is a Chinese company.";
 			 TriviaData[2][0] = "Othello was the first arcade game released by Nintendo.";
@@ -77,7 +76,7 @@ background-position: center">
 			 TriviaData[9][1] = "false";
 
 			 // Has question been asked
-			 // -- necessary because we are asking in random order
+			 //my collection, checking to see if its been called on yet.
 			 TriviaData[0][2] = "no";
 			 TriviaData[1][2] = "no";
 			 TriviaData[2][2] = "no";
@@ -90,10 +89,10 @@ background-position: center">
 			 TriviaData[9][2] = "no";
 
 			 // Load up first question
-			 setQuestion();
+			 question();
 
 			 // Sets question text and indicator so that we know the question has been displayed
-			 function setQuestion() {
+			 function question() {
 					 selectionValid = false; // Flag to make sure question has not been asked yet
 					 while (selectionValid == false) {
 							 currentQuestion = Math.floor(Math.random() * 10); // randomly select starting question
@@ -105,10 +104,10 @@ background-position: center">
 					 TriviaData[currentQuestion][2] = "yes";
 					 questionsAsked = questionsAsked + 1;
 			 }
-
+//this will check to see if everything is correct
 			 function processAnswer(myAnswer) {
 					 if (TriviaData[currentQuestion][1] == myAnswer) {
-							 // answer correct
+
 							 totalCorrect = totalCorrect + 1;
 					 }
 			 }
@@ -123,25 +122,25 @@ background-position: center">
 			 // and randomly selects the next question
 			 function checkAnswer() {
 					 if (document.getElementById("RadioTrue").checked) {
-							 processAnswer("true");
+							 checkAnswer("true");
 					 }
 					 else {
 							 processAnswer("false");
 					 }
-					 // get next question if not asked all yet
+					 //iterator
 					 if (questionsAsked < 10) {
 							 setQuestion();
 					 }
-					 // final question asked - disable button and show final results
+					 //final answer
 					 else {
 							 alert("Quiz complete! You got " + totalCorrect + " correct out of 10.");
 							 document.getElementById("ButtonContinue").disabled = true;
 					 }
-					 // update totals
+					 // how to get the totals for everything
 					 document.getElementById("NumberAsked").innerHTML = questionsAsked;
 					 document.getElementById("NumberCorrect").innerHTML = totalCorrect;
 			 }
-
+//end of javascript
 	 </script>
 
 </body>
