@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
-
-	body, html{
-		height: 100%;
-		margin: 0;
+body{
+		background-image: url(http://www.androidguys.com/wp-content/uploads/2016/04/8bit_wallpaper20.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	.bg{
 		background-image: url(nightpoke8bit.png);
@@ -89,7 +84,3 @@ li a:hover {
 		font-size: 20px;
 
 	}
-
-</style>
-</head>
-</html>
