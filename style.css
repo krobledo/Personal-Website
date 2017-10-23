@@ -3,7 +3,12 @@ body{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
+
+	#aboutMe{
+		background-image: url(8bitpoke.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 	@font-face {
 		font-family: CustomMine;
@@ -62,18 +67,3 @@ li a:hover {
 		color: white;
 		font-size: 15px;
 		text-align: left;
-	}
-
-	p.lol {
-		font-family: sans-serif;
-		font-size: 20px;
-		line-height: 100%;
-	}
-
-	p.yes {
-		font-family: "8Bit", CustomMine;
-		line-height: 700%;
-		color: blue;
-		font-size: 20px;
-
-	}
