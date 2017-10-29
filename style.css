@@ -1,7 +1,10 @@
 body{
+
+	}
+	.bgwalert{
 		background-image: url(nightpoke8bit.png);
-		background-repeat: no-repeat;
-		background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 	}
 
 	#aboutMe{
