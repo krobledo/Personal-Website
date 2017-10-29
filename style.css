@@ -10,10 +10,10 @@ body{
 		background-size: cover;
 	}
 
-	@font-face {
-		font-family: CustomMine;
-		src:	local("8 Bit"),
-					url(PressStart2P.ttf);
+@font-face {
+	font-family: CustomMine;
+	src:	local("8 Bit"),
+				url(PressStart2P.ttf);
 	}
 
 #homeButton{
@@ -27,4 +27,5 @@ body{
 	color: red;
 	text-align: center;
 	font-size: 30px;
+	line-height: 50px;
 }
