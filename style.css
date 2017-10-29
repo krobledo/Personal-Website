@@ -5,6 +5,13 @@ body{
 		background-image: url(nightpoke8bit.png);
     background-repeat: no-repeat;
     background-size: cover;
+		background-position: center;
+	}
+	.bgmini{
+		background-image: url(9H0zMZ.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 
 	#aboutMe{
@@ -15,14 +22,21 @@ body{
 
 @font-face {
 	font-family: CustomMine;
-	src:	local("8 Bit"),
-				url(PressStart2P.ttf);
+	src:	local("8 Bit"), url(PressStart2P.ttf);
 	}
 
 #homeButton{
 	width: 30px;
 	height: 30px;
 
+}
+
+.yes{
+	text-align: center;
+}
+
+.icons{
+	align: center;
 }
 
 .index{
