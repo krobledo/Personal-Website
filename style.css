@@ -15,3 +15,8 @@ body{
 		src:	local("8 Bit"),
 					url(PressStart2P.ttf);
 	}
+
+#homeButton{
+	width: 20px;
+	height: 20px;
+}
