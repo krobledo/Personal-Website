@@ -17,6 +17,14 @@ body{
 	}
 
 #homeButton{
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 30px;
+
+}
+
+.index{
+	font-family: CustomMine;
+	color: red;
+	text-align: center;
+	font-size: 30px;
 }
