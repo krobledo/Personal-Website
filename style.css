@@ -13,6 +13,12 @@ body{
 		background-size: cover;
 		background-position: center;
 	}
+	.bgabout{
+		background-image: url(earlpoke8bit.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center
+	}
 
 	#aboutMe{
 		background-image: url(8bitpoke.png);
