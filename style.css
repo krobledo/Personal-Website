@@ -20,11 +20,6 @@ body{
 		background-position: center
 	}
 
-	#aboutMe{
-		background-image: url(8bitpoke.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 
 @font-face {
 	font-family: CustomMine;
