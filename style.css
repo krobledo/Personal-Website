@@ -1,57 +1,65 @@
-body{
+body {}
 
-	}
-	.bgwalert{
-		background-image: url(nightpoke8bit.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-		background-position: center;
-	}
-	.bgmini{
-		background-image: url(9H0zMZ.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-	}
-	.bgabout{
-		background-image: url(earlpoke8bit.png);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center
-	}
+.bgwalert {
+  background-image: url(nightpoke8bit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.bgmini {
+  background-image: url(9H0zMZ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgabout {
+  background-image: url(earlpoke8bit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgcontact {
+  background-image: url(8bitpoke.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 @font-face {
-	font-family: CustomMine;
-	src:	local("8 Bit"), url(PressStart2P.ttf);
-	}
-
-#homeButton{
-	width: 30px;
-	height: 30px;
-
+  font-family: CustomMine;
+  src: local("8 Bit"), url(PressStart2P.ttf);
 }
 
-.yes{
-	text-align: center;
+#homeButton {
+  width: 30px;
+  height: 30px;
 }
 
-.icons{
-	align: center;
+.yes {
+  text-align: center;
 }
 
-.index{
-	font-family: CustomMine;
-	color: red;
-	text-align: center;
-	font-size: 30px;
-	line-height: 50px;
+.icons {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
 
-.mini{
-	font-family: CustomMine;
-	color: red;
-	text-align: center;
-	font-size: 23px;
-	line-height: 70px;
+.index {
+  font-family: CustomMine;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.mini {
+  font-family: CustomMine;
+  color: red;
+  text-align: center;
+  font-size: 23px;
+  line-height: 70px;
 }
