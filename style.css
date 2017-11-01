@@ -1,9 +1,13 @@
 body {}
 
+html{
+	height: 100%;
+}
+
 .bgwalert {
   background-image: url(nightpoke8bit.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -38,10 +42,6 @@ body {}
   height: 30px;
 }
 
-.yes {
-  text-align: center;
-}
-
 .icons {
   text-align: center;
   vertical-align: middle;
@@ -62,4 +62,10 @@ body {}
   text-align: center;
   font-size: 23px;
   line-height: 70px;
+}
+
+.logos{
+	height: 90px;
+	width: 90px;
+	margin: auto;
 }
