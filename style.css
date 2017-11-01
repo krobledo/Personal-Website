@@ -1,7 +1,11 @@
-body {}
+body {
+	margin-bottom: 60px;
+
+}
 
 html{
-	height: 100%;
+	position: relative;
+  min-height: 100%;
 }
 
 .bgwalert {
@@ -9,6 +13,7 @@ html{
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+	margin-bottom: 60px;
 }
 
 .bgmini {
@@ -68,4 +73,17 @@ html{
 	height: 90px;
 	width: 90px;
 	margin: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #484848;
+}
+
+#mail{
+	float: right;
 }
