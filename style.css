@@ -1,5 +1,5 @@
 body {
-	margin-bottom: 60px;
+
 
 }
 
@@ -11,7 +11,7 @@ html{
 .bgwalert {
   background-image: url(nightpoke8bit.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
 	margin-bottom: 60px;
 }
