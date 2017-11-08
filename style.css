@@ -1,5 +1,5 @@
 body {
-
+height: 100%;
 
 }
 
@@ -86,4 +86,45 @@ html{
 
 #mail{
 	float: right;
+}
+
+td{
+	height: 300px;
+	width: 150px;
+
+}
+table{
+	margin: auto;
+}
+
+/*div{
+	background-color: orange;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}*/
+
+.ran{
+	background-color: orange;
+}
+
+.yer{
+	background-color: blue
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.orange{
+	background-color: orange;
+}
+
+.purple{
+	background-color: purple;
+}
+
+.yellow{
+	background-color: yellow;
 }
