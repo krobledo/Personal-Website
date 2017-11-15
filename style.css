@@ -21,7 +21,9 @@ ul{
 	/*margin-bottom: 50px;*/
 }
 
-
+nav{
+	color: black;
+}
 
 .card{
 	margin-top: 20px;
