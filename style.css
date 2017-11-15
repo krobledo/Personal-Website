@@ -1,13 +1,36 @@
-.index{
+.jumbotron{
 
 }
 
+img{
+	/*max-height: 676px;*/
+
+}
+body{
+	text-align: center;
+}
+
+html{
+	height: 100%;
+}
+
+ul{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	/*margin-bottom: 50px;*/
+}
+
+
+
+.card{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .bgwalert {
-  background-image: url(nightpoke8bit.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-	margin-bottom: 60px;
+  background-color: #D3D3D3;
 }
 
 
@@ -19,10 +42,7 @@
 }
 
 .bgabout {
-  background-image: url(earlpoke8bit.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #D3D3D3;
 }
 
 .bgcontact {
@@ -46,6 +66,10 @@
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
+}
+
+.btn{
+	font-family: CustomMine;
 }
 
 
