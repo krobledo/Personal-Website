@@ -18,7 +18,7 @@ h1{
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
 	margin-top: 175px;
-	margin-left: 700px;
+	margin-left: 57%;
   position: static;
 }
 
@@ -26,8 +26,8 @@ h2{
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
-	margin-top: 250px;
-	margin-left: 800px;
+	margin-top: 10px;
+	margin-left: 64%;
   position: static;
 }
 
