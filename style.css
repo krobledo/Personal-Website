@@ -1,40 +1,57 @@
-.jumbotron{
-
+html {
+  height: 100%;
 }
 
-img{
-	/*max-height: 676px;*/
-
-}
-body{
-	text-align: center;
-}
-
-html{
-	height: 100%;
+ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /*margin-bottom: 50px;*/
 }
 
-ul{
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 20px;
-	/*margin-bottom: 50px;*/
+nav {
+  color: black;
 }
 
-nav{
-	color: black;
+h1{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	margin-top: 175px;
+	margin-left: 700px;
 }
 
-.card{
-	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
+h2{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 800px;
+}
+
+.index{
+	background-image: url(IMG_2246.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.card {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .bgwalert {
-  background-color: #D3D3D3;
+  background-image: url(IMG_2231.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+
+.card{
+	background-color: #D3D3D3;
+}
 
 .bgmini {
   background-image: url(9H0zMZ.jpg);
@@ -44,11 +61,14 @@ nav{
 }
 
 .bgabout {
-  background-color: #D3D3D3;
+  background-image: url(IMG_2231.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bgcontact {
-  background-image: url(8bitpoke.png);
+  background-image: url(IMG_2231.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -70,10 +90,9 @@ nav{
   line-height: 90px;
 }
 
-.btn{
-	font-family: CustomMine;
+.btn {
+  font-family: CustomMine;
 }
-
 
 .mini {
   font-family: CustomMine;
@@ -83,10 +102,10 @@ nav{
   line-height: 70px;
 }
 
-.logos{
-	height: 90px;
-	width: 90px;
-	margin: auto;
+.logos {
+  height: 90px;
+  width: 90px;
+  margin: auto;
 }
 
 .footer {
