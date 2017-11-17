@@ -19,7 +19,7 @@ h1{
 	font-size: 60px;
 	margin-top: 175px;
 	margin-left: 700px;
-  position: absolute;
+  position: static;
 }
 
 h2{
@@ -28,7 +28,7 @@ h2{
 	font-size: 30px;
 	margin-top: 250px;
 	margin-left: 800px;
-  position: absolute;
+  position: static;
 }
 
 
