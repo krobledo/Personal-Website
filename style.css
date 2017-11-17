@@ -17,7 +17,7 @@ h1{
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
-	margin-top: 175px;
+	margin-top: 170px;
 	margin-left: 57%;
   position: static;
 }
@@ -31,6 +31,23 @@ h2{
   position: static;
 }
 
+.icons {
+  margin-left: 67%;
+  margin-top: 10px;
+}
+
+#linkedin{
+  width: 10%;
+}
+
+#email{
+  width: 10%;
+  height: auto;
+}
+
+#resume{
+  width: 10%;
+}
 
 .index{
 	background-image: url(IMG_2246.JPG);
@@ -85,12 +102,6 @@ h2{
 #homeButton {
   width: 30px;
   height: 30px;
-}
-
-.icons {
-  text-align: center;
-  vertical-align: middle;
-  line-height: 90px;
 }
 
 .btn {
