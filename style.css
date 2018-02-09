@@ -27,25 +27,29 @@ h2{
 
 .title{
   text-align: center;
-  margin-left: 60%;
-  margin-top: 12%;
+  /*margin-left: 57%;*/
+  margin-top: 20%;
 }
 
-#linkedin{
+img{
+  width: 4%;
+  height: 50px;
+}
+
+/*#linkedin{
   width: 10%;
 }
 
 #email{
   width: 10%;
-  height: auto;
 }
 
 #resume{
   width: 10%;
-}
+}*/
 
 .index{
-	background-image: url(IMG_2246.JPG);
+	background-image: url(IMG_2191.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
